@@ -1,0 +1,118 @@
+[
+	{
+		"id": 1,
+		"status": "published",
+		"sort": null,
+		"user_created": "7acd48da-4e7e-4d58-b47a-8ceeeabbe3d5",
+		"date_created": "2024-10-10T17:36:01.428Z",
+		"user_updated": "7acd48da-4e7e-4d58-b47a-8ceeeabbe3d5",
+		"date_updated": "2024-10-10T17:41:02.379Z",
+		"pathname": "/directus/block-page",
+		"title": "Directus Block Page",
+		"blocks": {
+			"time": 1728581668989,
+			"blocks": [
+				{
+					"id": "42ytnqPBT_",
+					"type": "quote",
+					"data": {
+						"text": "Blocks are the future.",
+						"caption": "-syndrome",
+						"alignment": "left"
+					}
+				},
+				{
+					"id": "n9F88w1Cin",
+					"type": "nestedlist",
+					"data": {
+						"style": "unordered",
+						"items": [
+							{
+								"content": "Blocks in directus are powered by editor.js",
+								"items": []
+							},
+							{
+								"content": "Blocks are similar to what WordPress Gutenberg is doing",
+								"items": []
+							}
+						]
+					}
+				}
+			],
+			"version": "2.29.1"
+		},
+		"code": null,
+		"text": null,
+		"wysiwyg": null,
+		"markdown": null,
+		"tags": [
+			"directus",
+			"blocks",
+			"editor.js"
+		],
+		"icon": null
+	},
+	{
+		"id": 2,
+		"status": "published",
+		"sort": null,
+		"user_created": "7acd48da-4e7e-4d58-b47a-8ceeeabbe3d5",
+		"date_created": "2024-10-10T17:36:51.808Z",
+		"user_updated": "7acd48da-4e7e-4d58-b47a-8ceeeabbe3d5",
+		"date_updated": "2024-10-10T17:41:08.042Z",
+		"pathname": "/directus/code-page",
+		"title": "Directus Code Page",
+		"blocks": null,
+		"code": "Code page",
+		"text": null,
+		"wysiwyg": null,
+		"markdown": null,
+		"tags": [
+			"directus",
+			"code"
+		],
+		"icon": "code"
+	},
+	{
+		"id": 3,
+		"status": "published",
+		"sort": null,
+		"user_created": "7acd48da-4e7e-4d58-b47a-8ceeeabbe3d5",
+		"date_created": "2024-10-10T17:37:36.202Z",
+		"user_updated": "7acd48da-4e7e-4d58-b47a-8ceeeabbe3d5",
+		"date_updated": "2024-10-10T17:41:13.019Z",
+		"pathname": "/directus/text-page",
+		"title": "Directus Text Page",
+		"blocks": null,
+		"code": null,
+		"text": "Example text",
+		"wysiwyg": null,
+		"markdown": null,
+		"tags": [
+			"directus",
+			"text"
+		],
+		"icon": "text_snippet"
+	},
+	{
+		"id": 4,
+		"status": "published",
+		"sort": null,
+		"user_created": "7acd48da-4e7e-4d58-b47a-8ceeeabbe3d5",
+		"date_created": "2024-10-10T17:40:02.199Z",
+		"user_updated": "7acd48da-4e7e-4d58-b47a-8ceeeabbe3d5",
+		"date_updated": "2024-10-10T17:41:17.779Z",
+		"pathname": "/directus/wysiwyg-page",
+		"title": "Directus WYSIWYG Page",
+		"blocks": null,
+		"code": null,
+		"text": null,
+		"wysiwyg": "<p>WYSIWYG Page</p>\n<p>Bold</p>\n<p>Italic</p>\n<p>Heading1</p>\n<p>Heading2</p>\n<p>Heading3</p>\n<ol>\n<li>one</li>\n<li>two</li>\n<li>three</li>\n</ol>\n<p>&nbsp;</p>",
+		"markdown": null,
+		"tags": [
+			"directus",
+			"wysiwyg"
+		],
+		"icon": "wysiwyg"
+	}
+]

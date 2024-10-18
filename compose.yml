@@ -1,0 +1,31 @@
+version: "3"
+services:
+  directus:
+    image: directus/directus:11.1.1
+    ports:
+      - 33764:8055
+    volumes:
+      - ./database:/directus/database
+      - ./uploads:/directus/uploads
+      - ./extensions:/directus/extensions
+    env_file: .env
+  meltdown:
+    image: node:22-alpine3.20
+    ports:
+      - 33765:33765
+    networks:
+      - meltdown
+    volumes:
+      - ./app:/app
+      - ./start.sh:/app/start.sh
+      # for some reason it wasn't picking up all the values from `env_file`
+      # this is a work-around
+      - ./.env:/app/.env
+    working_dir: /app
+    entrypoint: /app/start.sh
+    env_file: .env
+    depends_on:
+    - directus
+
+networks:
+  meltdown:

@@ -1,0 +1,20 @@
+{
+  "name": "meltdown-with-directus",
+  "description": "meltdown-with-directus",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "async": "^3.2.6",
+    "dotenv": "^16.4.5",
+    "imba": "^2.0.0-alpha.237",
+    "lodash": "^4.17.21",
+    "superagent": "^10.1.0",
+    "url-join": "^4.0.1"
+  },
+  "scripts": {
+    "schema-import": "imba tools/schema-import.imba",
+    "schema-export": "imba tools/schema-export.imba",
+    "pages-import": "imba tools/pages-import.imba",
+    "pages-export": "imba tools/pages-export.imba"
+  }
+}
